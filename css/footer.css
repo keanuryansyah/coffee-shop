@@ -1,0 +1,122 @@
+footer {
+    height: auto;
+    padding: 40px 0;
+    background-color: var(--third-color);
+}
+
+#footerSect {
+    height: auto;
+}
+
+#footerCtn {
+    display: flex;
+}
+
+.leftFooterCtn {
+    width: 50%;
+    height: 100%;
+}
+
+.myCoffeeFooter {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 16px;
+    color: #CDBE78;
+}
+
+.bottomMyCoffee {
+    display: flex;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+
+.leftBottomMyCoffee {
+    width: 30%;
+}
+
+.rightBottomMyCoffee {
+    width: 70%;
+}
+
+.mgb ul li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.mgb ul li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+
+.mgb ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.rightFooterCtn {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactUsFooter {
+    width: 50%;
+}
+
+.contactUsTitle {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    color: #CDBE78;
+    margin-bottom: 22px;
+}
+
+.contactIconFooter i {
+    font-size: 22px;
+    margin-right: 12px;
+}
+
+.contactIconFooter i:first-child {
+    color: darkblue;
+}
+
+.contactIconFooter i:nth-child(2) {
+    color: darkred;
+}
+
+.contactIconFooter i:nth-child(3) {
+    color: lightblue;
+}
+
+.contactIconFooter i:last-child {
+    color: darkgreen;
+}
+
+.imageApp a img {
+    width: 130px;
+    margin-top: 14px;
+}
+
+
+.newsletterTitle {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    color: #CDBE78;
+    margin-bottom: 22px;
+}
+
+
+.enterYourEmail input {
+    height: 30px;
+    outline: none;
+    padding: 0 8px;
+}
+
+.enterYourEmail button {
+    height: 32px;
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+}

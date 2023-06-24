@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div,
+span {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    max-width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    width: 1120px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+:root {
+    --primary-color: #000;
+    --second-color: red;
+    --third-color: #9E6F21;
+    --text-color: #fff;
+    --bg-color: #FFEEB3;
+}
